@@ -5,8 +5,31 @@
 }
 Html, body{
     font-family: Arial, Helvetica, sans-serif;
+    color: #f120a1;
     width: 100vw;
     height: 100vh;
+    background-image: linear-gradient(to bottom, #f120a1,#ff3c38);
     background-repeat: no-repeat;
     background-image: url(../imagens/opus\ brasão.png);
+    background-size: contain;
+}
+header {
+    height: 150px;
+    background-image: url(../imagens/opus\ brasão\ 2.png);
+    background-repeat: repeat;
+    background-size: contain;
+    border: 1px solid #ff3c38;
+}
+header > h1{
+    text-align: center;
+    color: black;
+   
+}
+header > p {
+    font-size: 1.5em;    
+    text-align: center;
+    color: black;
+    font-weight: bold;
+  
+ 
 }
