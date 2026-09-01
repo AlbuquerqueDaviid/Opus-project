@@ -1,0 +1,12 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+}
+Html, body{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-image: url(../imagens/opus\ brasão.png);
+}
