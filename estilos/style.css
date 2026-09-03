@@ -14,7 +14,7 @@ Html, body{
     background-repeat: no-repeat;
     background-image: url(../imagens/opus\ brasão.png);
     background-size: contain;
-    background-position: bottom center;
+    background-position: center center;
 }
 header {
     height: 150px;
@@ -69,9 +69,7 @@ a:hover {
     font-family: 'Courier New', Courier, monospace;
     font-size: small;
 }
-.mainmen{
-    color: #e086d3;
-}
+
 .mainmen:hover{
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
@@ -89,7 +87,7 @@ main > div {
     padding: 10px;
     margin: auto;
     margin-top: 30px;
-    height: 500px;
+    height: 700px;
     width: 350px;
 }
 main > div > p{
@@ -107,5 +105,7 @@ footer{
     font-weight: small;
     background-color: #020815;
     text-align: center;
+    padding: 5px;
+    margin-top: 5px;
 
 }
