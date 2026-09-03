@@ -18,19 +18,25 @@ Html, body{
 }
 header {
     height: 150px;
+    color: #ff3c38;
     background-image: url(../imagens/opus\ brasão\ 2.png);
     background-repeat: repeat;
     background-size: contain;
     background-position: center center;
     border: 1px solid #ff3c38;
-    color: #ff3c38;
+    
+}
+header > div {
+    margin-top: 80px;
+    margin: auto;
+    background-color: #020815ea;
+    border: 0.5px, solid #ff3c38;
+
 }
 header > div > h1{
-
-    text-align: center;
-    text-shadow: 2px 1px 1px #f120a1;
-
-   
+    color: #e086d3;
+    text-shadow: 1px 1px #e086d3;
+    text-align:center; 
 }
 header > div > p {
     font-size: 1.5em;    
@@ -43,7 +49,6 @@ header > div > p {
 menu {
     background-color: #02081591;
     border: 1px solid #ff3c38;
-    text-shadow: 2px 1px 1px #f120a1;
     padding: 5px;
     text-align: center;
 }
@@ -52,16 +57,20 @@ menu > ul > li {
 }
 a {
     text-decoration: none;
-    color: #ff3c38;
+    color: #e086d3;
     font-size: 1.1em;
     padding: 10px;
     margin-right: 5px;
+    
 }
 a:hover {
     background-color: #f120a1;
     color: #020815;
     font-family: 'Courier New', Courier, monospace;
     font-size: small;
+}
+.mainmen{
+    color: #e086d3;
 }
 .mainmen:hover{
     font-family: 'Courier New', Courier, monospace;
@@ -71,20 +80,32 @@ a:hover {
     color: #020815;
 }
 
-header > div {
-    max-width: 500px;
-    min-height: 80px;
-    margin-top: 40px;
-    background-color: #020815cb;
-    border: 0.5px, solid #f120a1;
-}
-
-div {
+main > div {
     
     display: block;
-    margin: auto;
     background-color: #020815c5;
-    border: 1px solid #f120a1;     
+    border: 1px solid #ff3c38;     
     border-radius: 20px;
     padding: 10px;
+    margin: auto;
+    margin-top: 30px;
+    height: 500px;
+    width: 350px;
+}
+main > div > p{
+    text-align: center;
+    font-size: 1.1em;
+    text-decoration: underline;
+
+}
+main > div > ul {
+    text-align: center;
+    list-style-type: none;
+}
+footer{
+    font-size: 0.9em;
+    font-weight: small;
+    background-color: #020815;
+    text-align: center;
+
 }
