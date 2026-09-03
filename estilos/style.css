@@ -57,7 +57,13 @@ a {
     padding: 10px;
     margin-right: 5px;
 }
-a:hover{
+a:hover {
+    background-color: #f120a1;
+    color: #020815;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: small;
+}
+.mainmen:hover{
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
     font-size: 1.3em;
