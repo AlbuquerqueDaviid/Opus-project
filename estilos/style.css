@@ -23,7 +23,7 @@ header {
     background-image: url(../imagens/opus\ brasão\ 2.png);
     background-repeat: repeat;
     background-size: contain;
-    background-position: center center;
+    background-position: bottom center;
     border: 1px solid #ff3c38;
     
 }
@@ -39,21 +39,14 @@ header > div > h1{
     text-shadow: 1px 1px #e086d3;
     text-align:center; 
 }
-header > div > p {
-    font-size: 1.5em;    
-    text-align: center;
-    font-weight: bold;
-    text-shadow: 2px 1px 1px #f120a1;
-  
- 
-}
-menu {
+
+nav {
     background-color: #02081591;
     border: 1px solid #ff3c38;
     padding: 5px;
     text-align: center;
 }
-menu > ul > li {
+nav > ul > li {
     display: inline;
 }
 a {
@@ -84,12 +77,48 @@ main > div {
     display: block;
     background-color: #020815c5;
     border: 1px solid #ff3c38;     
-    border-radius: 20px;
+    border-radius: 10px;
     padding: 10px;
     margin: auto;
     margin-top: 30px;
     height: 700px;
     width: 350px;
+}
+main > article { 
+    background-color: #020815c4;
+    width: 300px;
+    height: 500px;
+    margin: auto;
+    margin-top: 20px;
+    border: 1px solid #ff3c38;
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 1px 1px 1px #e086d3;
+}
+article > h2 {
+    font-weight: normal;
+    font-size: 1.3em;
+   text-align: center;
+   text-decoration: underline;
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+
+article > p {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: justify;
+    text-indent: 10px;
+}
+#meme {
+    width: 330px;
+    height: 250px;
+    display: block;  
+    border: 1px solid #e086d3;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-image: url(../imagens/chari-potion-mobile.png);
+    background-size: cover;
 }
 main > div > p{
     text-align: center;
@@ -101,19 +130,21 @@ main > div > ul {
     text-align: center;
     list-style-type: none;
 }
-#meme {
-    width: 300px;
-    height: 200px;
-    display: block;  
-    border: 1px solid #e086d3;
-    margin: auto;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    background-image: url(../imagens/chari-potion-mobile.png);
-    background-size: cover;
+
+#juntese > ul > p {
+    margin-top: 60px;
+    text-decoration: underline;
+}
+#juntese > aside > li {
+    text-align: center;
+    text-decoration: none;
+    list-style-type: none;
+}
+#discordlink{
+    margin-top: 50px;
 }
 #regras {
-    height: 500px;
+    height: 800px;
     font-size: 0.9em;
     text-align: center;
     text-decoration: none;
